@@ -13,9 +13,9 @@ let balloons = [];
 let balloonImages = [];
 
 function preload() {
-  balloonImages.push(loadImage("./Assets/Balloons/Red_Balloon.png"));
-  balloonImages.push(loadImage("./Assets/Balloons/Green_Balloon.png"));
-  balloonImages.push(loadImage("./Assets/Balloons/Blue_Balloon.png"));
+  balloonImages.push(loadImage("./Assets/balloons/Red_Balloon.png"));
+  balloonImages.push(loadImage("./Assets/balloons/Green_Balloon.png"));
+  balloonImages.push(loadImage("./Assets/balloons/Blue_Balloon.png"));
 }
 
 function setup() {
