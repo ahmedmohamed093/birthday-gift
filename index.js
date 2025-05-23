@@ -1,8 +1,13 @@
 party.settings.debug = false;
+const sfx = new Audio("./Assets/sfx/confetti_sfx.mp3");
 
 document.body.addEventListener("click", (event) => {
   event.preventDefault();
   party.confetti(event);
+
+  sfx.volume = 0.25;
+  sfx.currentTime = 0;
+  sfx.play();
 });
 let balloons = [];
 let balloonImages = [];
